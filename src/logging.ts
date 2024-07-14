@@ -1,4 +1,4 @@
-interface ILogger {
+export interface ILogger {
     verbose(...args: any[]): any
     info(...args: any[]): any
     success(...args: any[]): any
